@@ -1,0 +1,22 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "tdd exercise in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fouralarmfire/fizzbuzz-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fouralarmfire/fizzbuzz-js/issues"
+  },
+  "homepage": "https://github.com/fouralarmfire/fizzbuzz-js#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
