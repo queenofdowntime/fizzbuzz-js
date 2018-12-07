@@ -25,3 +25,21 @@ describe('Fizzbuzz', () => {
     expect(fizzbuzz.isDivisibleBy(1, 15)).toBeFalsy();
   });
 });
+
+describe('When playing the game, fizzbuzz says...', () => {
+  test('"fizz" when a number is divisible by 3',() => {
+    expect(fizzbuzz.says(3)).toEqual('fizz');
+  });
+
+  test('"buzz" when a number is divisible by 5',() => {
+    expect(fizzbuzz.says(5)).toEqual('buzz');
+  });
+
+  test('"fizzbuzz" when a number is divisible by 15',() => {
+    expect(fizzbuzz.says(15)).toEqual('fizzbuzz');
+  });
+
+  test('the number if it is not divisible by 3, 5 or 3 and 5',() => {
+    expect(fizzbuzz.says(7)).toEqual(7);
+  });
+});
