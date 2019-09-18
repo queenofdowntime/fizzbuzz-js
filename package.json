@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/fouralarmfire/fizzbuzz-js#readme",
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.9.0"
   },
   "dependencies": {
     "braces": "^3.0.2",
